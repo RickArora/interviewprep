@@ -13,3 +13,5 @@ class Solution:
             elif (c == '}' and len(stack) > 0 and stack.pop() != '{' ):
                 return False
         return len(stack) == 0
+    
+    # make a variable i = stack.pop to avoid unexpected behavior
