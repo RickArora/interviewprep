@@ -16,4 +16,3 @@ print(is_unique("hi")) # true
 print(is_unique("ihi")) # false
 print(is_unique("ricky")) # true
 print(is_unique("rricky")) # false
-  
